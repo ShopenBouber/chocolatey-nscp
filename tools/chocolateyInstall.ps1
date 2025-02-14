@@ -1,6 +1,6 @@
-﻿$packageName = 'NSClient++'
-$url         = 'https://github.com/mickem/nscp/releases/download/0.5.0.62/NSCP-0.5.0.62-Win32.msi'
-$url64       = 'https://github.com/mickem/nscp/releases/download/0.5.0.62/NSCP-0.5.0.62-x64.msi'
+$packageName = 'NSClient++'
+$url = 'https://github.com/mickem/nscp/releases/download/0.6.9/NSCP-0.6.9-Win32.msi'
+$url64 = 'https://github.com/mickem/nscp/releases/download/0.6.9/NSCP-0.6.9-x64.msi'
 
 $packageArgs = @{
   packageName    = $packageName
@@ -9,9 +9,9 @@ $packageArgs = @{
   url64bit       = $url64
   silentArgs     = "/quiet"
   validExitCodes = @(0)
-  checksum       = 'a9503ed8f3c9aa43aeda439ac39b302f155eea59a43c097fa8adb90770ec4c56'
+  checksum       = 'A52B7A6C99FE99A2C668BC6B40295C3E61AF1641A11D46CC1FDECB29CA49AA37'
   checksumType   = 'sha256'
-  checksum64     = '7c5ae04dffd956cfbc6fee80a8fefdbe4f53ca6dbc9901e8995003a1ce75e03e'
+  checksum_64     = '5490A448331DB4915A928B5E783BC1BC7FD67C2768452236AA39C341FF746458'
   checksumType64 = 'sha256'
 }
 
